@@ -1,0 +1,413 @@
+{
+	"columns": [
+		{
+			"name": "Товарная группа",
+			"type": "tree",
+			"objects": [
+				{
+					"name": "Ванны",
+					"patterns": [["ван"], ["ванн"]],
+					"sub": []
+				},	
+				{
+					"name": "Раковины",
+					"patterns": [["раковин"], ["умывал"], ["мойка"], ["рукомой"]],
+					"sub": []
+				},	
+				{
+					"name": "Смесители",
+					"patterns": [["смесит"], ["кран"], ["излив"], ["вент"], ["перекл", "поток"], ["термостат"], ["термо", "стат"]],
+					"sub": []
+				},	
+				{
+					"name": "Душевые кабины",
+					"patterns": [["душ", "каб"]],
+					"sub": []
+				},	
+				{
+					"name": "Душевые поддоны",
+					"patterns": [["душ", "под"]],
+					"sub": []
+				},	
+				{
+					"name": "Душевые ограждения",
+					"patterns": [["душ", "огражд"]],
+					"sub": []
+				},	
+				{
+					"name": "Душ",
+					"patterns": [["душ"]],
+					"sub": []
+				},	
+				{
+					"name": "Унитазы",
+					"patterns": [["унитаз"]],
+					"sub": [
+						{
+							"name": "Сиденья для унитазов",
+							"patterns": [["сидень"]],
+							"sub": []
+						}
+					]
+				},	
+				{
+					"name": "Биде",
+					"patterns": [["биде"], ["бидэ"]],
+					"sub": []
+				},	
+				{
+					"name": "Писсуары",
+					"patterns": [["писсуар"], ["писуар"]],
+					"sub": []
+				},	
+				{
+					"name": "Инсталляции",
+					"patterns": [["инстал"]],
+					"sub": []
+				},	
+				{
+					"name": "Зеркала",
+					"patterns": [["зеркал"]],
+					"sub": []
+				}
+			]
+		},
+		{
+			"name": "Бренд",
+			"type": "tree",
+			"objects": [
+				{
+					"name": "Villeroy & Boch",
+					"patterns": [["villeroy"], ["boch"], ["вилле"], ["виле"]],
+					"sub": []
+				},
+				{
+					"name": "Duravit",
+					"patterns": [["duravit"], ["дуравит"]],
+					"sub": []
+				}				
+			]
+		},
+		{
+			"name": "Коллекция",
+			"type": "tree",
+			"objects": [
+				{
+					"name": "Architectura",
+					"patterns": [["arch"], ["архитек"]],
+					"sub": []
+				},				
+				{
+					"name": "Hommage",
+					"patterns": [["hom"], ["хом"]],
+					"sub": []
+				},				
+				{
+					"name": "Loop & Friends",
+					"patterns": [["loop"], ["friends"], ["lop"], ["френд"]],
+					"sub": []
+				},				
+				{
+					"name": "My Art",
+					"patterns": [["my", "art"]],
+					"sub": []
+				},				
+				{
+					"name": "O.Novo Vita",
+					"patterns": [["nov", "vit"], ["ново", "вита"]],
+					"sub": []
+				},				
+				{
+					"name": "O.Novo",
+					"patterns": [["nov"], ["ново"]],
+					"sub": []
+				},				
+				{
+					"name": "Oberon",
+					"patterns": [["ober"], ["обер"]],
+					"sub": []
+				},
+				{
+					"name": "Square Exclusive",
+					"patterns": [["square"], ["exclus"]],
+					"sub": []
+				},		
+				{
+					"name": "Square",
+					"patterns": [["square"]],
+					"sub": []
+				},	
+				{
+					"name": "Sentique",
+					"patterns": [["sent"]],
+					"sub": []
+				},	
+				{
+					"name": "Squaro Edge 12",
+					"patterns": [["squaro", "edg", "12"]],
+					"sub": []
+				},	
+				{
+					"name": "Squaro Infinity",
+					"patterns": [["squaro", "infin"]],
+					"sub": []
+				},	
+				{
+					"name": "Squaro Prestige",
+					"patterns": [["squaro", "prestige"]],
+					"sub": []
+				},	
+				{
+					"name": "Squaro",
+					"patterns": [["squaro"]],
+					"sub": []
+				},	
+				{
+					"name": "Subway 2.0",
+					"patterns": [["sub", "2"], ["саб", "2"]],
+					"sub": []
+				},
+				{
+					"name": "Subway Infinity",
+					"patterns": [["sub", "infin"], ["саб", "infin"], ["sub", "инфин"], ["саб", "инфин"]],
+					"sub": []
+				},
+				{
+					"name": "Subway",
+					"patterns": [["sub"], ["саб"]],
+					"sub": []
+				},
+				{
+					"name": "Aveo New Generation",
+					"patterns": [["aveo", "new", "gener"]],
+					"sub": []
+				},
+				{
+					"name": "Aveo",
+					"patterns": [["aveo", "авео"]],
+					"sub": []
+				},
+				{
+					"name": "Futurion Flat",
+					"patterns": [["futur", "flat"], ["futur", "флэт"]],
+					"sub": []
+				},
+				{
+					"name": "Futurion",
+					"patterns": [["futur"]],
+					"sub": []
+				},
+				{
+					"name": "La Fleur Classique",
+					"patterns": [["lafle", "class"], ["la", "fle", "class"]],
+					"sub": []
+				},
+				{
+					"name": "La Fleur Exclusive",
+					"patterns": [["lafle", "exclu"], ["la", "fle", "exclu"]],
+					"sub": []
+				},
+				{
+					"name": "La Fleur",
+					"patterns": [["lafle"], ["la", "fle"]],
+					"sub": []
+				},
+				{
+					"name": "More To See 14",
+					"patterns": [["more", "see", "14"]],
+					"sub": []
+				},
+				{
+					"name": "More To See One",
+					"patterns": [["more", "see", "one"]],
+					"sub": []
+				},
+				{
+					"name": "More To See",
+					"patterns": [["more", "see"]],
+					"sub": []
+				},
+				{
+					"name": "My View 14",
+					"patterns": [["my", "vie", "14"]],
+					"sub": []
+				},
+				{
+					"name": "My View In",
+					"patterns": [["my", "vie", "in"]],
+					"sub": []
+				},
+				{
+					"name": "My View",
+					"patterns": [["my", "vie"]],
+					"sub": []
+				},
+				{
+					"name": "Source Flow",
+					"patterns": [["sourc", "flow"]],
+					"sub": []
+				},
+				{
+					"name": "Source",
+					"patterns": [["sourc"]],
+					"sub": []
+				},
+				{
+					"name": "Amadea",
+					"patterns": [["amade"], ["амаде"]],
+					"sub": []
+				},
+				{
+					"name": "AquaLoop",
+					"patterns": [["amade"], ["амаде"]],
+					"sub": []
+				},
+				{
+					"name": "Artis",
+					"patterns": [["artis"], ["артис"]],
+					"sub": []
+				},
+				{
+					"name": "avento",
+					"patterns": [["avent"]],
+					"sub": []
+				},
+				{
+					"name": "Cult",
+					"patterns": [["cult"]],
+					"sub": []
+				},
+				{
+					"name": "Central Line",
+					"patterns": [["centr", "lin"]],
+					"sub": []
+				},
+				{
+					"name": "Ceta",
+					"patterns": [["ceta"]],
+					"sub": []
+				},
+				{
+					"name": "Cetus",
+					"patterns": [["cetu"]],
+					"sub": []
+				},
+				{
+					"name": "Colorado",
+					"patterns": [["colorad"], ["колорадо"], ["коларадо"]],
+					"sub": []
+				},
+				{
+					"name": "Domicil",
+					"patterns": [["domicil"]],
+					"sub": []
+				},
+				{
+					"name": "Evana",
+					"patterns": [["evan"]],
+					"sub": []
+				},
+				{
+					"name": "Just",
+					"patterns": [["just"]],
+					"sub": []
+				},
+				{
+					"name": "Joyce",
+					"patterns": [["joyc"]],
+					"sub": []
+				},
+				{
+					"name": "La Belle",
+					"patterns": [["la", "bell"]],
+					"sub": []
+				},
+				{
+					"name": "Legato",
+					"patterns": [["legat"]],
+					"sub": []
+				},
+				{
+					"name": "Libra",
+					"patterns": [["libr"]],
+					"sub": []
+				},
+				{
+					"name": "Lifetime",
+					"patterns": [["lifetime"], ["life", "time"]],
+					"sub": []
+				},
+				{
+					"name": "Luxxus",
+					"patterns": [["luxxus"], ["luxus"]],
+					"sub": []
+				},
+				{
+					"name": "L'Aura",
+					"patterns": [["l", "aur"], ["laur"]],
+					"sub": []
+				},
+				{
+					"name": "Memento",
+					"patterns": [["mement"]],
+					"sub": []
+				},
+				{
+					"name": "Metric Art",
+					"patterns": [["metric", "art"]],
+					"sub": []
+				},
+				{
+					"name": "My Nature",
+					"patterns": [["my", "natur"]],
+					"sub": []
+				},
+				{
+					"name": "Nexus",
+					"patterns": [["nexus"]],
+					"sub": []
+				},
+				{
+					"name": "Octagon",
+					"patterns": [["octag"]],
+					"sub": []
+				},
+				{
+					"name": "Omnia Classic",
+					"patterns": [["omni", "clas"]],
+					"sub": []
+				},
+				{
+					"name": "Pavia",
+					"patterns": [["pavi"]],
+					"sub": []
+				},
+				{
+					"name": "True Oak",
+					"patterns": [["tru", "oak"]],
+					"sub": []
+				},
+				{
+					"name": "Venticello",
+					"patterns": [["ventic"]],
+					"sub": []
+				},
+				{
+					"name": "Viclean",
+					"patterns": [["viclea"]],
+					"sub": []
+				},
+				{
+					"name": "Viconnect",
+					"patterns": [["vicon"]],
+					"sub": []
+				},
+				{
+					"name": "Vivia",
+					"patterns": [["vivi"]],
+					"sub": []
+				}
+			]
+		}
+	]
+}
